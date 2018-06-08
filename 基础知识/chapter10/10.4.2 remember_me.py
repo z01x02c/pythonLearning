@@ -17,7 +17,7 @@ def get_stored_username():
 	filename = 'username.json'
 	try:
 		with open(filename) as f_obj:
-			username = json.load(f_obj)
+			username = json.load(f_obj)n
 	except FileNotFoundError:
 		return None
 	else:
