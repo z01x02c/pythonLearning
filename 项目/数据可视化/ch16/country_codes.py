@@ -6,5 +6,5 @@ def get_country_code(country_name):
             return code
     return None
     
-print(get_country_code('China'))
+# ~ print(get_country_code('China'))
     
